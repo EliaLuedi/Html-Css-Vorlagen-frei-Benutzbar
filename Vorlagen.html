@@ -1,0 +1,83 @@
+<!-- 01: Schöne Übersicht mit Bildern und optionalem Link -->
+
+<!-- HTML: -->
+<div>
+    <!-- Zeile 1 -->
+
+    <h2>Seitentitel:</h2>
+    <div class="Klasse01">
+        <div class="Klasse02">
+            <a href="Link"><img class="Bild" src="Bildadresse" alt="Alt"></a>
+            <h1>Titel</h1>
+            <h4>Untertitel</h4>
+            </div>
+
+            <div class="Klasse02">
+            <a href="Link"><img class="Bild" src="Bildadresse" alt="Alt"></a>
+            <h1>Titel</h1>
+            <h4>Untertitel</h4>
+        </div>
+
+        <div class="Klasse02">
+            <a href="Link"><img class="Bild" src="Bildadresse" alt="Alt"></a>
+            <h1>Titel</h1>
+            <h4>Untertitel</h4>
+        </div>
+    </div>
+
+    <!-- Zeile 2 -->
+
+    <div class="Klasse01">
+        <div class="Klasse02">
+            <a href="Link"><img class="Bild" src="Bildadresse" alt="Alt"></a>
+            <h1>Titel</h1>
+            <h4>Untertitel</h4>
+            </div>
+
+            <div class="Klasse02">
+            <a href="Link"><img class="Bild" src="Bildadresse" alt="Alt"></a>
+            <h1>Titel</h1>
+            <h4>Untertitel</h4>
+        </div>
+
+        <div class="Klasse02">
+            <a href="Link"><img class="Bild" src="Bildadresse" alt="Alt"></a>
+            <h1>Titel</h1>
+            <h4>Untertitel</h4>
+        </div>
+    </div>
+</div>
+
+<!-- CSS: -->
+<style>
+.Klass01{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Klasse02{
+    border-color: var(--red);
+    border: var(--red);
+    border-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1%;
+    margin-left: 28px;
+    margin-bottom: 20px;
+}
+
+.Klasse02 h4{
+    line-height: 1%;
+    margin-bottom: 1px;
+}
+
+.Bild{
+    width: 250px;
+}
+</style>
+
+<!-- Bemerkungen:
+
+Ich empfehle maximal 3 Elemente Pro Zeile
+Achtung: Das CSS enthält keinen Code für ein Responsives Design-->
